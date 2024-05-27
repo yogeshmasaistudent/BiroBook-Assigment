@@ -6,7 +6,10 @@ function Home() {
   useEffect(() => {
     const savedBooks = JSON.parse(localStorage.getItem("books")) || [];
     setBooks(savedBooks);
+    // const image = JSON.parse(localStorage.getItem("Front"))
   }, []);
+
+  console.log(books);
 
   return (
     <div className="p-8">
@@ -17,6 +20,7 @@ function Home() {
             <h2 className="text-xl font-semibold">{book.title}</h2>
             <p className="text-gray-700">Author: {book.author}</p>
             <p className="text-gray-500 text-sm">Date: {book.date}</p>
+            <img src={book.selectedImage} alt="FrontPageImage" />
           </div>
         ))}
       </div>

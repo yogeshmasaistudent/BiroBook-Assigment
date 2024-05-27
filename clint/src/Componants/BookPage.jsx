@@ -165,14 +165,14 @@ const BookPage = () => {
           value={textAreaContent}
         />
         <button
-          className="bg-teal-500 hover:bg-teal-700 text-white py-2 px-4 rounded"
+          className="bg-rose-600 hover:bg-teal-700 text-white py-2 px-4 rounded"
           onClick={handleSubmit}
           disabled={!textAreaContent || !backgroundImage}
         >
           Submit
         </button>
         <button
-          className="ml-4 bg-teal-500 hover:bg-teal-700 text-white py-2 px-4 rounded"
+          className="ml-4 bg-rose-600 hover:bg-teal-700 text-white py-2 px-4 rounded"
           onClick={handleDownloadPDF}
         >
           Download PDF
@@ -185,7 +185,7 @@ const BookPage = () => {
                 key={page.id}
                 className={`mr-2 px-[8px] py-[4px] cursor-pointer ${
                   page.id === currentPage
-                    ? "bg-teal-500 text-white rounded-[10px]"
+                    ? "bg-fuchsia-500 text-white rounded-[10px]"
                     : "bg-gray-300 text-gray-700"
                 }`}
                 onClick={() => handlePageClick(page)}
@@ -195,13 +195,13 @@ const BookPage = () => {
             ))}
           </ul>
           <button
-            className="mt-4 bg-teal-500 hover:bg-teal-700 text-white py-2 px-4 rounded"
+            className="mt-4 bg-rose-600 hover:bg-teal-700 text-white py-2 px-4 rounded"
             onClick={handlePreviousPage}
           >
             Previous Page
           </button>
           <button
-            className="mt-4 ml-4 bg-teal-500 hover:bg-teal-700 text-white py-2 px-4 rounded"
+            className="mt-4 ml-4 bg-rose-600	 hover:bg-teal-700 text-white py-2 px-4 rounded"
             onClick={handleNextPage}
           >
             Next Page
