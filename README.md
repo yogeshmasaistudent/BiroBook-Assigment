@@ -24,7 +24,7 @@ You can view a live demo of the application [here](https://bri-books-um4x.vercel
 
 
 ## Video Demo
-A video demo of the application can be found [here]().
+A video demo of the application can be found [here](https://drive.google.com/file/d/1nm3DmFxbXNS-H1Le9t7txisGvMFK9VuC/view?usp=sharing).
 
 ## Features
 
