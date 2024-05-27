@@ -1,4 +1,4 @@
-# Welcome to visiting BiroBook-Assigment 
+# Welcome to visiting Bribooks-Assigment 
 
 
 ## Folder Structure
@@ -69,5 +69,5 @@ To use the application:
 3. Use the subscription form to stay updated.
 
 ## Thank You
-Thank you to [] for this opportunity to showcase my skills through this assignment.
+Thank you to Bribooks  for this opportunity to showcase my skills through this assignment.
 
